@@ -10,6 +10,7 @@ New York City has traditionally been considered a safe “hot” market for real
 The objectives that I have set out for this research project are several-fold. My hypothesis is that the pandemic had a demonstrably negative significant influence on New York City residential property values:
 
 H0 : The COVID-19 pandemic had an objectively significant negative impact on New York City residential property values.
+
 H1 : The COVID-19 pandemic did not have an objectively significant negative impact on New York City residential property values.
 
 My first objective is to determine which property attributes from the dataset play the greatest role in determining property valuation. My second objective will be to test several machine learning models on relevant data and identify the best performing one. The models that I used for my research are linear regression, support vector machine (SVM), random forest regression, and gradient-boosting machine (GBM). The evaluation of these models’ performance will be done using standard regression metrics such as mean squared error (MSE) and root mean squared error (RMSE). My last and final objective is to prove my null hypothesis and demonstrate that there was indeed a significant effect. For this objective I will compare prediction results for a random set of unseen properties where all variables remain constant, except for the inclusion of the COVID-19 infection count in one iteration of the prediction process.
